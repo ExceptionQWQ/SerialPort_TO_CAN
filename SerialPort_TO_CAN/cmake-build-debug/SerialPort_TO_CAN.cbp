@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SerialPort_TO_CAN"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialPort_TO_CAN.elf">
+				<Option output="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/SerialPort_TO_CAN.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/."/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 SerialPort_TO_CAN.elf"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialPort_TO_CAN.elf/fast">
+				<Option output="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/SerialPort_TO_CAN.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/."/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 SerialPort_TO_CAN.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/RobotMain.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/can.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/dma.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/gpio.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/main.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/stm32f1xx_it.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Inc/usart.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/RobotMain.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/can.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/dma.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/gpio.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/main.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/stm32f1xx_it.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/syscalls.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/sysmem.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/system_stm32f1xx.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Src/usart.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/CMSIS/LICENSE.txt">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/STM32F103C8TX_FLASH.ld">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/can_bus.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/can_bus.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/circular_buffer.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/circular_buffer.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/crc.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/crc.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/reliable_binary_transfer.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/reliable_binary_transfer.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/serial_port.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/serial_port.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/serial_to_can.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/serial_to_can.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/simple_binary_transfer.cpp">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/rdk/core/transfer/simple_binary_transfer.h">
+			<Option target="SerialPort_TO_CAN.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/高速串口TTL转CAN/SerialPort_TO_CAN/SerialPort_TO_CAN/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
